@@ -23,7 +23,7 @@ def receive_frame(iface):
 
 # メイン関数
 def main():
-    interface = 'イーサネット 3'  # 使用するインターフェース名を指定
+    interface = 'イーサネット 1'  # 使用するインターフェース名を指定
 
     # 送信するイーサネットフレームを構築
     dest_mac = 'ff:ff:ff:ff:ff:ff'  # ブロードキャストMACアドレス
