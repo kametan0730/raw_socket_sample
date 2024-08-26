@@ -7,7 +7,7 @@
 ## Python
 ### Windows
 #### インストール
-- Python3,, Scapy, WinPcapのインストールが必要です
+- Python3, Scapy, Npcapのインストールが必要です
     - Python:
         - WindowsのStoreアプリまたは以下のサイトのインストーラーからインストールしてください
         - https://www.python.org/downloads/
