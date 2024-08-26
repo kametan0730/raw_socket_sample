@@ -20,12 +20,19 @@
         - WiresharkのインストールウィザードでNpcapをインストールできます
             - https://www.wireshark.org/download.html
 
-#### 実行
-```
-cd python3
-sudo python3 main_win.py
-```
+#### 実行(VSCode)
+- VSCodeでmain_win.pyファイルを作成
+- Python拡張機能をVSCodeに追加する
+- プログラムのコード(https://github.com/kametan0730/raw_socket_sample/blob/master/python/main_win.py )を貼り付け
+- ▶ボタン(`Run Python File`)をクリックして実行する
 
+
+#### 実行(CUIの場合)
+```
+git clone https://github.com/kametan0730/raw_socket_sample
+cd raw_socket_sample/python3
+python3 main_win.py
+```
 
 ### Linux
 #### インストール
@@ -36,7 +43,8 @@ sudo python3 main_win.py
 #### 実行
 - 実行にはroot権限若しくはCAP_NET_RAWケーパビリティが必要です
 ```
-cd python
+git clone https://github.com/kametan0730/raw_socket_sample
+cd raw_socket_sample/python
 sudo python3 main.py
 ```
 
@@ -51,6 +59,7 @@ sudo python3 main.py
 
 - 実行にはroot権限若しくはCAP_NET_RAWケーパビリティが必要です
 ```
-cd cpp
+git clone https://github.com/kametan0730/raw_socket_sample
+cd raw_socket_sample/cpp
 sudo make run
 ```
