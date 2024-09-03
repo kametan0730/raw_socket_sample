@@ -21,9 +21,9 @@
             - https://www.wireshark.org/download.html
 
 #### 実行(VSCode)
-- VSCodeでmain_win.pyファイルを作成
+- VSCodeでmain_scapy.pyファイルを作成
 - Python拡張機能をVSCodeに追加する
-- プログラムのコード(https://github.com/kametan0730/raw_socket_sample/blob/master/python/main_win.py )を貼り付け
+- プログラムのコード(https://github.com/kametan0730/raw_socket_sample/blob/master/python/main_scapy.py )を貼り付け
 - ▶ボタン(`Run Python File`)をクリックして実行する
 
 
@@ -31,8 +31,17 @@
 ```
 git clone https://github.com/kametan0730/raw_socket_sample
 cd raw_socket_sample/python3
-python3 main_win.py
+python3 main_scapy.py
 ```
+
+### Mac
+#### インストール
+- Scapyのインストールが必要です
+- Pythonに付属するパッケージ管理コマンドのpipでインストールできます
+- `pip install scapy`
+
+#### 実行
+Windowsの場合と同じ
 
 ### Linux
 #### インストール
